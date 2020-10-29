@@ -1,5 +1,7 @@
 # demoWebServices
 
+Dépôt de projets sur les webservices en java.
+
 ## Infos versions
 
 V1
