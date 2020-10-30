@@ -12,3 +12,6 @@ V2
 
 V3
 - Client Restful : projet maven simple avec Jersey 1.19 qui interroge le serveur selon un url et récupère la donnée transmise
+
+V4
+- Webservice Restful : projet maven web simple avec Jersey 1.19 (Ajout de jersey-json)
