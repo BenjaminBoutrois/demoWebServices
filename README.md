@@ -11,4 +11,4 @@ V2
 - Projet maven simple avec Jackson pour passer de objet au JSON et du JSON à l'objet.
 
 V3
-- Client Restful maven simple avec Jersey 1.19 qui interroge le serveur selon un url et récupère la donnée transmise
+- Client Restful : projet maven simple avec Jersey 1.19 qui interroge le serveur selon un url et récupère la donnée transmise
