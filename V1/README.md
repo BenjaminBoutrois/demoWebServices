@@ -1,6 +1,6 @@
 # jpaGestionEnsup
 
-Projet maven web simple avec Jersey 1.19
+Webservice Restful : projet maven web simple avec Jersey 1.19
 
 ## Prérequis
 
