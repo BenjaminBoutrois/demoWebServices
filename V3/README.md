@@ -1,21 +1,16 @@
 # jpaGestionEnsup
 
-Gestion Ensup en projet Maven multi-modules avec JPA et Hibernate.
-Ajout de Log4j2.
+Projet maven simple avec Jersey 1.19 qui interroge le serveur selon un url et récupère la donnée transmise
 
 ## Prérequis
 
 - JDK 8
 - Maven 3.6.3
-- Un serveur MySQL
-- Apache Tomcat 9 configuré sur le port 8080
-- Le serveur web et le serveur de base de données doivent être lancés
+- Le serveur web hébergeant le webservice du projet V1 doit être lancé et accessible
 
 ## Installation
 
 1. Cloner le dépôt
-2. Créer une base de données en la nommant **jpagestionensup**
+2. Dans le fichier `V3\src\main\java\eu\ensup\presentation\Lanceur.java` modifier l'URL en remplaçant `127.0.0.1` par l'adresse du serveur web hébergeant le webservice.
 3. A la racine du projet V4, ouvrir un invite de commande et taper l'instruction `mvn clean package` pour compiler le projet
-4. Une fois compilé, copier le fichier **V4\web\target\web.war** dans le dossier **webapps** du serveur Tomcat
-5. Lancer le serveur Tomcat pour déployer le projet sur le serveur
-6. Ouvrir un navigateur et entrer `http://127.0.0.1:8080/web` dans la barre d'URL pour accéder à l'application
+4. Une fois compilé, exécuter le fichier `V3\target\demoWebServiceV2-0.0.1-SNAPSHOT.jar` pour accéder à l'application
